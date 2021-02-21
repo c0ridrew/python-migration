@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-migration"
+version = "0.1.4"
+description = ""
+authors = ["AndrewTechDeveloper <andrew.tech.developer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+fastapi = "^0.63.0"
+SQLAlchemy = "^1.3.23"
+uvicorn = "^0.13.4"
+mysqlclient = "^2.0.3"
+alembic = "^1.5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
