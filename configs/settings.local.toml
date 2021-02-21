@@ -1,5 +1,0 @@
-[local.databases.python-migration]
-user_name = "root"
-password = "password"
-host = "localhost"
-port = 3306
